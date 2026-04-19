@@ -7,6 +7,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=4G
 #SBATCH --partition=small
+#SBATCH --gres=nvme:40
 
 module load python-data
 module load gcc/11.3.0 openmpi/4.1.4
