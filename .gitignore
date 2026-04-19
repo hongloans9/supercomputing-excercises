@@ -1,0 +1,4 @@
+super_data/
+mpi_venv/
+__pycache__/
+*.pyc
